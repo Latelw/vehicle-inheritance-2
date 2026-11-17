@@ -1,0 +1,62 @@
+package com.pluralsight;
+
+public class Vehicle { private String model;
+    private String color;
+    private int fuelCapacity;
+    private int numberOfPassengers;
+    private int cargoCapacity;
+
+    public int getCargoCapacity() {
+        return cargoCapacity;
+    }
+
+    public void setCargoCapacity(int cargoCapacity) {
+        this.cargoCapacity = cargoCapacity;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getFuelCapacity() {
+        return fuelCapacity;
+    }
+
+    public void setFuelCapacity(int fuelCapacity) {
+        this.fuelCapacity = fuelCapacity;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getNumberOfPassengers() {
+        return numberOfPassengers;
+    }
+
+    public void setNumberOfPassengers(int numberOfPassengers) {
+        this.numberOfPassengers = numberOfPassengers;
+    }
+    public void startEngine(){
+
+    }
+    public void stopEngine(){
+
+    }
+    public void accelerate(){
+
+    }
+    public void brake(){
+
+    }
+}
+
+
